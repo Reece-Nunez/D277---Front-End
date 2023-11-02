@@ -1,0 +1,285 @@
+title { 
+    font-weight: bolder;
+}
+
+#main{
+    font-family: 'Barlow', sans-serif;
+    background-color: rgb(208, 197, 154);
+    font-weight: bolder;
+    color: rgb(16, 71, 48);
+}
+
+h1 {
+    margin-top: 6em;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    right: 0;
+    color: inherit;
+}
+
+a {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    color: inherit;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    transform-origin: bottom right;
+    transition: transform .25s ease-out;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.flex-container-main {
+    margin-top: 10em;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 100%; 
+}
+
+.second-header-main {
+    color: rgb(16, 71, 48);
+}
+
+.content-main {
+    font-weight: bolder;
+    font-size: 1em;
+    line-height: 3em;
+    color: rgb(16, 71, 48);
+}
+
+#fun-facts-main {
+    font-size: inherit;
+    color: rgb(16, 71, 48);
+    line-height:1.3em;
+}
+
+.image-main {
+    display: flex;
+    justify-content: center;
+}
+
+.main-image {
+    height: 25em;
+    width: 31.25em;
+}
+
+.side-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-content-main {
+    display: flex;
+    justify-content: center;
+    color: rgb(16, 71, 48);
+}
+
+#kenai {
+    font-family: 'Agdasima', sans-serif;
+    color: #82AC60;
+    background-color: #E4E4DC;
+}
+
+.info-kenai {
+    margin-left: 5em;
+}
+
+.flex-container-kenai {
+    background-color: rgb(111, 149, 128, .2);
+}
+
+.flex-container-kenai, .image1-kenai, .image2-kenai, .image-container-kenai {
+    display: inline-flex;
+    align-items: center;
+}
+
+.content-kenai {
+    font-size: 24px;
+}
+
+.image1-kenai, .image2-kenai {
+    flex-direction: column;
+}
+
+.image-container-kenai {
+    flex-direction: column;
+    margin-left: 30em;
+}
+
+.kenai-image {
+    width: 500px;
+}
+
+#fun-facts {
+    font-family: 'Asap Condensed', sans-serif;
+    font-weight: bolder;
+    color: #E4E4DC;
+    background-color: #6F9580;
+}
+
+
+#here {
+    font-size: inherit;
+    color: inherit;;
+}
+
+.flex-container-fun-facts {
+    display: inline-flex;
+    margin-top: 10em;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(191, 202, 180, .2);
+}
+
+.fun-facts-content, .table {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+
+.fun-facts-image {
+height: 20em
+}
+
+.fun-facts-second-header {
+display: flex;
+justify-content: center;
+}
+
+.table {
+display: flex;
+flex-direction: column;
+margin-right: 3em;
+align-items: center;
+}
+
+table {
+width: 25em;
+height: 15em;
+}
+
+.fun-facts-content {
+margin-left: 3em;
+}
+
+li {
+line-height: 2em;
+}
+
+#table-title {
+display: flex;
+margin-bottom: 1em;
+justify-content: center;
+margin-top: 1em;
+}
+
+tr, td, th {
+border: solid;
+}
+
+#juneau {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    color: rgb(208, 197, 154);
+    background-color: rgba(16, 71, 48, 0.836);
+}
+
+.flex-container-juneau {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 9em;
+    font-size: larger;
+    background-color: rgb(200, 178, 130, .5);
+}
+
+.info-juneau {
+    line-height: 2em;
+}
+
+.juneau-image {
+    width: 500px;
+}
+
+#contact {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #a4b06a;
+    background-color: #c6ccc1;
+}
+
+.flex-container-contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    padding: 5em;
+}
+
+form {
+    box-shadow: 10px 10px 20px 5px rgba(0,0,0,.4);
+    border-radius: 3em;
+    padding: 3em;
+    line-height: 2em;
+    background-color: #dce0df;
+    
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    border: 2px solid grey;
+    border-radius: .4em;
+    font-family: inherit;
+    font-size: 18px;
+}
+
+button {
+    font-family: inherit;
+    color: inherit;
+    width: 7em;
+    height: 2em;
+    font-size: inherit;
+    background-color: #3d4336;
+    border: none;
+    border-radius: .4em;
+    margin: 1em;
+    transition: .3s;
+}
+
+button:active {
+    transform: scale(.95);
+}
+
+#question {
+    font-family: inherit;
+    font-size: 18px;
+
+}

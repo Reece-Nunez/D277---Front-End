@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="images/4.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="confirm.js"></script>
+    <title>Contact Us</title>
+</head>
+<body id="contact">
+    <div>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="juneau.html">Juneau</a>
+            <a href="kenai.html">Kenai</a>
+            <a href="fun-facts.html">Fun Facts</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+    <h1>Please Submit your Questions Here:</h1>
+    <div class="flex-container-contact">
+        <form>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" size="30"><br>
+
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname" size="30"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" size="40"><br>
+
+            <label for="confirm">Confirm Email:</label><br>
+            <input type="email" id="confirm" name="confirm" size="40"><br>
+
+            <button id="check-button">Check Emails</button>
+
+            <p id="confirm-message"></p>
+
+            <label for="question">Please Submit any Questions:</label><br>
+            <textarea id="question" name="question" rows="5" cols="50" maxlength="500"></textarea>
+        </form>
+    </div>
+</body>
+</html>
